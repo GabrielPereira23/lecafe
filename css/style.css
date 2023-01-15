@@ -1,1 +1,2 @@
-/* Folha que importa todos os estilos */
+@import 'global.css';
+@import 'predefinedStyles.css';
