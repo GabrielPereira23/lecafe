@@ -1,0 +1,32 @@
+/* ------------ HEADER ------------ */
+.header {
+  background-color: #f00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+  background: linear-gradient(
+    180deg,
+    rgba(21, 0, 0, 0.9) 0%,
+    rgba(21, 0, 0, 0.54) 82.29%,
+    rgba(21, 0, 0, 0) 99.99%,
+    rgba(21, 0, 0, 0) 100%
+  );
+}
+
+.header img {
+  margin-bottom: 40px;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header .separator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--b6);
+}

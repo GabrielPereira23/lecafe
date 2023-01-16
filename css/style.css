@@ -1,2 +1,4 @@
-@import 'global.css';
-@import 'predefinedStyles.css';
+@import "global.css";
+@import "predefinedStyles.css";
+
+@import "pages/index.css";
