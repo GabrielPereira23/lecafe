@@ -1,6 +1,6 @@
 /* ------------ HEADER ------------ */
 .header {
-  background-color: #f00;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,6 +12,9 @@
     rgba(21, 0, 0, 0) 99.99%,
     rgba(21, 0, 0, 0) 100%
   );
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .header img {
@@ -29,4 +32,125 @@
   height: 12px;
   border-radius: 50%;
   background-color: var(--b6);
+}
+
+/* ------------ INTRO ------------ */
+.intro {
+  background: url("../../img/intro.jpg") center;
+  width: 100%;
+  height: 900px;
+  display: flex;
+  align-items: center;
+}
+
+.intro .strip-bg {
+  width: 100%;
+  background: linear-gradient(
+    89.99deg,
+    rgba(21, 0, 0, 0.1) 0.01%,
+    rgba(21, 0, 0, 0.8) 28.13%,
+    rgba(21, 0, 0, 0.8) 51.56%,
+    rgba(21, 0, 0, 0) 99.99%
+  );
+}
+
+.intro .strip {
+  padding: 20px 0px;
+}
+
+.intro h1 {
+  max-width: 760px;
+}
+
+/* ------------ OPENING ------------ */
+.opening {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  padding: 100px 0px;
+}
+
+/* ------------ MENU ------------ */
+.menu-bg {
+  background-color: var(--b1);
+  position: relative;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.menu-bg .img-container {
+  width: 100%;
+  max-width: 1920px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.menu-bg img {
+  grid-column: 2/3;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.menu .content {
+  grid-column: 1/2;
+  padding: 64px 0;
+}
+
+.menu h2 {
+  margin-bottom: 32px;
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+  z-index: 0;
+}
+.menu h2::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: var(--b6);
+  position: absolute;
+  bottom: 8px;
+  z-index: -1;
+}
+
+.menu p {
+  margin-bottom: 40px;
+}
+
+.menu ul {
+  margin-bottom: 64px;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.menu li::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: url("../../img/svg/decorator.svg");
+}
+
+.menu a {
+  padding: 8px 16px;
+  border-radius: 4px;
+  display: inline-block;
+  background: linear-gradient(#dd9428, #ff9900);
 }
