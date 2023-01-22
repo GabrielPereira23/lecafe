@@ -5,7 +5,6 @@
 body {
   margin: 0px;
   padding: 0px;
-  padding-bottom: 100px;
 }
 
 a {
@@ -21,6 +20,7 @@ ul {
 
 h1,
 h2,
+h3,
 p {
   margin: 0px;
   padding: 0px;
@@ -28,9 +28,4 @@ p {
 
 img {
   display: block;
-}
-
-.container {
-  max-width: 1160px;
-  margin: 0 auto;
 }

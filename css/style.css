@@ -1,4 +1,5 @@
 @import "global.css";
 @import "predefinedStyles.css";
+@import "components.css";
 
 @import "pages/index.css";
