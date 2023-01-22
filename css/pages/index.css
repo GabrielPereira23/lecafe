@@ -111,7 +111,6 @@
 .menu h2 {
   margin-bottom: 32px;
   position: relative;
-  display: inline-block;
   width: fit-content;
   z-index: 0;
 }
@@ -236,4 +235,73 @@
 
 .wifi img {
   justify-self: center;
+}
+
+/* ------------ RATING ------------ */
+.rating {
+  padding: 64px 0px 120px 0px;
+  background-color: var(--b3);
+}
+
+.rating h2 {
+  margin-bottom: 32px;
+  position: relative;
+  width: fit-content;
+  z-index: 0;
+}
+.rating h2::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: var(--b6);
+  position: absolute;
+  bottom: 8px;
+  z-index: -1;
+}
+
+.rating .title span {
+  display: block;
+  margin-bottom: 64px;
+}
+
+.rating .content {
+  width: fit-content;
+  display: flex;
+  gap: 60px;
+  margin: 0 auto;
+}
+
+.rating .content .rate {
+  max-width: 440px;
+  background-color: var(--b5);
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.rating .content .rate::before,
+.rating .content .rate::after {
+  content: "";
+  width: 40px;
+  height: 36px;
+  position: absolute;
+}
+.rating .content .rate::before {
+  background: url("../../img/svg/quote-open.svg");
+  left: -20px;
+  top: -18px;
+}
+.rating .content .rate::after {
+  background: url("../../img/svg/quote-close.svg");
+  right: -20px;
+  bottom: -18px;
+}
+
+.rating .content .rate span {
+  display: block;
+}
+
+.rating .content .rate .office {
+  margin-bottom: 32px;
 }
