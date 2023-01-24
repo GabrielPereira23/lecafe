@@ -1,24 +1,24 @@
+/* ------------ INTRO ------------ */
+.intro {
+  display: flex;
+  flex-direction: column;
+  background: url("../../img/intro-m.jpg") center no-repeat;
+  background-size: cover;
+}
+
 /* ------------ HEADER ------------ */
 .header {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 32px;
+  gap: 40px;
+  padding: 32px 0px;
   background: linear-gradient(
     180deg,
     rgba(21, 0, 0, 0.9) 0%,
-    rgba(21, 0, 0, 0.54) 82.29%,
-    rgba(21, 0, 0, 0) 99.99%,
+    rgba(21, 0, 0, 0.54) 82%,
     rgba(21, 0, 0, 0) 100%
   );
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.header img {
-  margin-bottom: 40px;
 }
 
 .header ul {
@@ -31,43 +31,37 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: var(--b6);
+  background: var(--b6);
 }
 
-/* ------------ INTRO ------------ */
-.intro {
-  background: url("../../img/intro.jpg") center;
-  width: 100%;
-  height: 900px;
-  display: flex;
-  align-items: center;
-}
-
-.intro .strip-bg {
-  width: 100%;
+/* ------------ TITLE ------------ */
+.title-bg {
+  margin: 200px 0px 260px 0px;
   background: linear-gradient(
-    89.99deg,
-    rgba(21, 0, 0, 0.1) 0.01%,
-    rgba(21, 0, 0, 0.8) 28.13%,
-    rgba(21, 0, 0, 0.8) 51.56%,
-    rgba(21, 0, 0, 0) 99.99%
+    90deg,
+    rgba(21, 0, 0, 0.1) 0%,
+    rgba(21, 0, 0, 0.8) 28%,
+    rgba(21, 0, 0, 0.8) 51%,
+    rgba(21, 0, 0, 0) 100%
   );
 }
 
-.intro .strip {
-  padding: 20px 0px;
+.title {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.intro h1 {
+.title h1 {
   max-width: 760px;
+  margin-bottom: 16px;
 }
 
 /* ------------ OPENING ------------ */
 .opening {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
   align-items: center;
+  gap: 40px;
   padding: 100px 0px;
 }
 
@@ -85,8 +79,8 @@
 
 .menu-bg .img-container {
   width: 100%;
-  max-width: 1920px;
   height: 100%;
+  max-width: 1920px;
   display: grid;
   grid-template-columns: 1.25fr 1fr;
   margin: 0 auto;
@@ -97,9 +91,9 @@
 }
 
 .menu-bg img {
-  grid-column: 2/3;
   height: 100%;
   max-width: 100%;
+  grid-column: 2/3;
   object-fit: cover;
 }
 
@@ -109,16 +103,16 @@
 }
 
 .menu h2 {
+  width: fit-content;
   margin-bottom: 32px;
   position: relative;
-  width: fit-content;
   z-index: 0;
 }
 .menu h2::after {
   content: "";
-  display: block;
   width: 100%;
   height: 4px;
+  display: block;
   background-color: var(--b6);
   position: absolute;
   bottom: 8px;
@@ -141,16 +135,16 @@
 }
 .menu li::before {
   content: "";
-  display: inline-block;
   width: 12px;
   height: 12px;
+  display: inline-block;
   background: url("../../img/svg/decorator.svg");
 }
 
 .menu a {
+  display: inline-block;
   padding: 8px 16px;
   border-radius: 4px;
-  display: inline-block;
   background: linear-gradient(#dd9428, #ff9900);
 }
 
@@ -158,9 +152,9 @@
 .location {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
   gap: 40px;
   padding: 100px 0px;
-  align-items: center;
 }
 
 .location h2 {
@@ -192,8 +186,8 @@
 
 .handmade-bg .img-container {
   width: 100%;
-  max-width: 1920px;
   height: 100%;
+  max-width: 1920px;
   display: grid;
   grid-template-columns: 1fr 1.25fr;
   margin: 0 auto;
@@ -204,19 +198,19 @@
 }
 
 .handmade-bg img {
-  grid-column: 1/2;
-  max-width: 100%;
   height: 100%;
+  max-width: 100%;
+  grid-column: 1/2;
   object-fit: cover;
 }
 
 .handmade .content {
-  grid-column: 2/3;
   height: 660px;
-  padding: 64px 0;
+  grid-column: 2/3;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 64px 0;
 }
 
 .handmade h2 {
@@ -228,9 +222,9 @@
 .wifi {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 100px 0px;
-  gap: 40px;
   align-items: center;
+  gap: 40px;
+  padding: 100px 0px;
 }
 
 .wifi img {
@@ -244,16 +238,16 @@
 }
 
 .rating h2 {
+  width: fit-content;
   margin-bottom: 32px;
   position: relative;
-  width: fit-content;
   z-index: 0;
 }
 .rating h2::after {
   content: "";
-  display: block;
   width: 100%;
   height: 4px;
+  display: block;
   background-color: var(--b6);
   position: absolute;
   bottom: 8px;
@@ -274,9 +268,9 @@
 
 .rating .content .rate {
   max-width: 440px;
-  background-color: var(--b5);
   padding: 32px;
   border-radius: 16px;
+  background-color: var(--b5);
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   position: relative;
 }
