@@ -25,6 +25,7 @@
   display: flex;
   align-items: center;
   gap: 20px;
+  padding: 0px 40px;
 }
 
 .header .separator {
@@ -32,6 +33,24 @@
   height: 12px;
   border-radius: 50%;
   background: var(--b6);
+}
+
+@media (max-width: 800px) {
+  .header ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .header .separator {
+    display: none;
+  }
+
+  .header a {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 }
 
 /* ------------ TITLE ------------ */
@@ -56,13 +75,33 @@
   margin-bottom: 16px;
 }
 
+@media (max-width: 800px) {
+  .title-bg {
+    margin: 100px 0px 140px 0px;
+  }
+}
+
 /* ------------ OPENING ------------ */
 .opening {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 40px;
-  padding: 100px 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+@media (max-width: 900px) {
+  .opening {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 48px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .opening img {
+    width: 200px;
+  }
 }
 
 /* ------------ MENU ------------ */
@@ -148,13 +187,42 @@
   background: linear-gradient(#dd9428, #ff9900);
 }
 
+@media (max-width: 900px) {
+  .menu-bg .img-container {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .menu {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .menu .content {
+    grid-column: 1/3;
+  }
+}
+
+@media (max-width: 700px) {
+  .menu-bg .img-container {
+    display: none;
+  }
+
+  .menu {
+    grid-template-columns: 1fr;
+  }
+
+  .menu .content {
+    grid-column: 1/3;
+  }
+}
+
 /* ------------ LOCATION ------------ */
 .location {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 40px;
-  padding: 100px 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .location h2 {
@@ -170,6 +238,15 @@
 
 .location a {
   text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .location {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
 }
 
 /* ------------ HANDMADE ------------ */
@@ -218,22 +295,70 @@
   margin-bottom: 32px;
 }
 
+@media (max-width: 900px) {
+  .handmade-bg .img-container {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .handmade {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .handmade .content {
+    grid-column: 2/4;
+  }
+}
+
+@media (max-width: 700px) {
+  .handmade-bg .img-container {
+    display: none;
+  }
+
+  .handmade {
+    grid-template-columns: 1fr;
+  }
+
+  .handmade .content {
+    grid-column: 1/2;
+    height: auto;
+  }
+}
+
 /* ------------ WIFI ------------ */
 .wifi {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 40px;
-  padding: 100px 0px;
+  padding: 100px 32px;
 }
 
 .wifi img {
   justify-self: center;
 }
 
+@media (max-width: 800px) {
+  .wifi {
+    grid-template-columns: 1fr;
+    gap: 48px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .wifi img {
+    width: 152px;
+  }
+}
+
+@media (max-width: 600px) {
+  .wifi img {
+    width: 120px;
+  }
+}
+
 /* ------------ RATING ------------ */
 .rating {
-  padding: 64px 0px 120px 0px;
+  padding: 100px 0px;
   background-color: var(--b3);
 }
 
@@ -263,7 +388,10 @@
   width: fit-content;
   display: flex;
   gap: 60px;
+  flex-wrap: wrap;
+  justify-content: center;
   margin: 0 auto;
+  padding: 0px 40px;
 }
 
 .rating .content .rate {
@@ -282,12 +410,14 @@
   position: absolute;
 }
 .rating .content .rate::before {
-  background: url("../../img/svg/quote-open.svg");
+  background: url("../../img/svg/quote-open.svg") no-repeat;
+  background-size: contain;
   left: -20px;
   top: -18px;
 }
 .rating .content .rate::after {
-  background: url("../../img/svg/quote-close.svg");
+  background: url("../../img/svg/quote-close.svg") no-repeat;
+  background-size: contain;
   right: -20px;
   bottom: -18px;
 }
@@ -298,4 +428,23 @@
 
 .rating .content .rate .office {
   margin-bottom: 32px;
+}
+
+@media (max-width: 800px) {
+  .rating {
+    padding: 64px 0px;
+    background-color: var(--b3);
+  }
+  .rating .content .rate::before {
+    width: 30px;
+    height: 27px;
+    left: -15px;
+    top: -13.5px;
+  }
+  .rating .content .rate::after {
+    width: 30px;
+    height: -27px;
+    right: -15px;
+    bottom: -13.5px;
+  }
 }
