@@ -129,6 +129,20 @@
   transform: translateX(-50%);
 }
 
+.menu-bg .decoration {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 540px;
+  align-self: center;
+  justify-self: flex-end;
+  transform: translateX(50%);
+}
+.menu-bg .decoration img {
+  height: fit-content;
+}
+
 .menu-bg img {
   height: 100%;
   max-width: 100%;
@@ -273,6 +287,14 @@
   left: 50%;
   transform: translateX(-50%);
 }
+.handmade-bg .img-container::after {
+  content: "";
+  width: 64px;
+  height: 56px;
+  align-self: center;
+  background: url("../../img/svg/heart.svg");
+  transform: translateX(-50%);
+}
 
 .handmade-bg img {
   height: 100%;
@@ -306,6 +328,10 @@
 
   .handmade .content {
     grid-column: 2/4;
+  }
+
+  .handmade-bg .img-container::after {
+    display: none;
   }
 }
 
