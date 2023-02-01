@@ -35,6 +35,22 @@
   background: var(--b6);
 }
 
+.header a {
+  position: relative;
+}
+.header a::after {
+  content: "";
+  width: 0px;
+  height: 2px;
+  display: block;
+  background-color: var(--b13);
+  transition: 0.3s width;
+  position: absolute;
+}
+.header a:hover::after {
+  width: 100%;
+}
+
 @media (max-width: 800px) {
   .header ul {
     flex-wrap: wrap;
@@ -50,6 +66,9 @@
     padding: 8px 16px;
     border-radius: 8px;
     background-color: rgba(0, 0, 0, 0.5);
+  }
+  .header a::after {
+    display: none;
   }
 }
 
@@ -68,6 +87,7 @@
 .title {
   padding-top: 20px;
   padding-bottom: 20px;
+  animation: fadein 0.5s;
 }
 
 .title h1 {
