@@ -192,7 +192,12 @@
   display: inline-block;
   padding: 8px 16px;
   border-radius: 4px;
-  background: linear-gradient(#dd9428, #ff9900);
+  background: var(--e6);
+  transition: transform 0.3s, background 0.3s;
+}
+.menu a:hover {
+  background: var(--e9);
+  transform: scale(1.01);
 }
 
 .menu-img {
@@ -260,6 +265,10 @@
 
 .location a {
   text-decoration: underline;
+  transition: color .3s;
+}
+.location a:hover {
+  color: var(--e2);
 }
 
 @media (max-width: 900px) {
@@ -314,10 +323,10 @@
   object-fit: cover;
 }
 .handmade-img::after {
-  content: '';
+  content: "";
   width: 64px;
   height: 56px;
-  background: url('../../img/svg/heart.svg');
+  background: url("../../img/svg/heart.svg");
   position: absolute;
   top: 50%;
   right: -32px;

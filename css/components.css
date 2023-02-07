@@ -33,7 +33,9 @@
   display: flex;
   align-items: center;
 }
-
+.footer .map a:hover {
+  color: var(--b11);
+}
 .footer .map a::before {
   content: "";
   width: 12px;
@@ -54,12 +56,23 @@
   gap: 8px;
 }
 
+.footer .contacts a {
+  transition: color 0.3s;
+}
+.footer .contacts a:hover {
+  color: var(--b11);
+}
+
 .footer .social {
   width: 100%;
 }
 
 .footer .social img {
   margin: 0px auto 40px auto;
+  transition: transform 0.3s;
+}
+.footer .social img:hover {
+  transform: scale(1.05);
 }
 
 .footer .social div {
