@@ -1,17 +1,17 @@
-/* Default Container */
-.container {
+/* CPN ---------- DEFAULT CONTAINER ------------ */
+.cpn_container {
   padding-left: 32px;
   padding-right: 32px;
   max-width: 1160px;
   margin: 0 auto;
 }
 
-/* Footer */
-.footer-bg {
+/* CPN ---------- FOOTER ------------ */
+.cpn_footer-bg {
   background-color: var(--b1);
 }
 
-.footer {
+.cpn_footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
@@ -19,24 +19,24 @@
   padding-bottom: 100px;
 }
 
-.footer .map h3 {
+.cpn_footer-map h3 {
   margin-bottom: 20px;
 }
 
-.footer .map ul {
+.cpn_footer-map ul {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.footer .map a {
+.cpn_footer-map a {
   display: flex;
   align-items: center;
 }
-.footer .map a:hover {
+.cpn_footer-map a:hover {
   color: var(--b11);
 }
-.footer .map a::before {
+.cpn_footer-map a::before {
   content: "";
   width: 12px;
   height: 12px;
@@ -46,68 +46,68 @@
   background-color: var(--b5);
 }
 
-.footer .contacts h3 {
+.cpn_footer-contacts h3 {
   margin-bottom: 20px;
 }
 
-.footer .contacts ul {
+.cpn_footer-contacts ul {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.footer .contacts a {
+.cpn_footer-contacts a {
   transition: color 0.3s;
 }
-.footer .contacts a:hover {
+.cpn_footer-contacts a:hover {
   color: var(--b11);
 }
 
-.footer .social {
+.cpn_footer-social {
   width: 100%;
 }
 
-.footer .social img {
+.cpn_footer-social img {
   margin: 0px auto 40px auto;
   transition: transform 0.3s;
 }
-.footer .social img:hover {
+.cpn_footer-social img:hover {
   transform: scale(1.05);
 }
 
-.footer .social div {
+.cpn_footer-social div {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
 
 @media (max-width: 1000px) {
-  .footer {
+  .cpn_footer {
     grid-template-columns: 1fr 1fr;
     padding-top: 64px;
     padding-bottom: 64px;
   }
 
-  .footer .contacts {
+  .cpn_footer-contacts {
     margin-bottom: 40px;
   }
 
-  .footer .social {
+  .cpn_footer-social {
     grid-column: 1/-1;
   }
 }
 
 @media (max-width: 600px) {
-  .footer {
+  .cpn_footer {
     grid-template-columns: 1fr;
   }
 
-  .footer .social > img {
+  .cpn_footer-social > img {
     width: 200px;
     height: auto;
   }
 
-  .footer a img {
+  .cpn_footer a img {
     width: 52px;
     height: 52px;
   }

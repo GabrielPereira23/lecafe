@@ -121,6 +121,7 @@
 
   .opening img {
     width: 200px;
+    height: 50px;
   }
 }
 
@@ -378,12 +379,14 @@
 
   .wifi img {
     width: 152px;
+    height: 120px;
   }
 }
 
 @media (max-width: 600px) {
   .wifi img {
     width: 120px;
+    height: 96px;
   }
 }
 
@@ -410,54 +413,55 @@
   z-index: -1;
 }
 
-.rating .title span {
+.rating-title span {
   display: block;
   margin-bottom: 64px;
 }
 
-.rating .content {
+.rating-content {
   width: fit-content;
   display: flex;
-  gap: 60px;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 60px;
   margin: 0 auto;
   padding: 0px 40px;
 }
 
-.rating .content .rate {
+.rating-rate {
   max-width: 440px;
+  flex: 1 1 332px;
   padding: 32px;
   border-radius: 16px;
   background-color: var(--b5);
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   position: relative;
 }
-.rating .content .rate::before,
-.rating .content .rate::after {
+.rating-rate::before,
+.rating-rate::after {
   content: "";
   width: 40px;
   height: 36px;
   position: absolute;
 }
-.rating .content .rate::before {
+.rating-rate::before {
   background: url("../../img/svg/quote-open.svg") no-repeat;
   background-size: contain;
   left: -20px;
   top: -18px;
 }
-.rating .content .rate::after {
+.rating-rate::after {
   background: url("../../img/svg/quote-close.svg") no-repeat;
   background-size: contain;
   right: -20px;
   bottom: -18px;
 }
 
-.rating .content .rate span {
+.rating-rate span {
   display: block;
 }
 
-.rating .content .rate .office {
+.rating-office {
   margin-bottom: 32px;
 }
 
@@ -466,13 +470,13 @@
     padding: 64px 0px;
     background-color: var(--b3);
   }
-  .rating .content .rate::before {
+  .rating-rate::before {
     width: 30px;
     height: 27px;
     left: -15px;
     top: -13.5px;
   }
-  .rating .content .rate::after {
+  .rating-rate::after {
     width: 30px;
     height: -27px;
     right: -15px;
