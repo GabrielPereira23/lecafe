@@ -12,7 +12,6 @@
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  margin-bottom: 64px;
   padding: 32px 0px;
   background: var(--b1);
 }
@@ -80,7 +79,14 @@
 
 /* CPN ---------- TITLE ------------ */
 .cpn_title {
-  margin-bottom: 40px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 900px) {
+  .cpn_title {
+    padding-top: 64px;
+  }
 }
 
 /* CPN ---------- FOOTER ------------ */
