@@ -12,6 +12,7 @@
   flex-direction: column;
   align-items: center;
   gap: 40px;
+  margin-bottom: 64px;
   padding: 32px 0px;
   background: var(--b1);
 }
@@ -68,12 +69,18 @@
 }
 
 #index .cpn_header {
+  margin-bottom: 0px;
   background: linear-gradient(
     180deg,
     rgba(21, 0, 0, 0.9) 0%,
     rgba(21, 0, 0, 0.54) 82%,
     rgba(21, 0, 0, 0) 100%
   );
+}
+
+/* CPN ---------- TITLE ------------ */
+.cpn_title {
+  margin-bottom: 40px;
 }
 
 /* CPN ---------- FOOTER ------------ */

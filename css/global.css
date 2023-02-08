@@ -50,3 +50,10 @@ p {
 img {
   display: block;
 }
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
