@@ -15,7 +15,6 @@
 .interactive-selector {
   height: 100%;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   background-color: var(--b12);
 }
