@@ -29,6 +29,11 @@
   gap: 8px;
   flex: 1;
   padding: 16px;
+  transition: background .3s;
+}
+.interactive-selector button:hover,
+.interactive-selector button:focus {
+  background-color: var(--b11);
 }
 
 .interactive-content {
@@ -48,6 +53,10 @@
   align-items: center;
   gap: 12px;
   text-align: left;
+  transition: color .3s;
+}
+.interactive-content button:hover h2 {
+  color: var(--b7);
 }
 
 .interactive-content p {
