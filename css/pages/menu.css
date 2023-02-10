@@ -62,8 +62,16 @@
   color: var(--b7);
 }
 
+.interactive-content button > * {
+  pointer-events: none;
+}
+
 .interactive-content p {
+  display: none;
   grid-column: 2/-1;
+}
+.interactive-content button.j-active p {
+  display: initial;
 }
 
 @media (min-width: 3000px) {

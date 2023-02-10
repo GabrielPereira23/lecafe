@@ -1,39 +1,126 @@
 [
   [
-    {"name": "Café Preto", "description": "O clássico, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Café Expresso", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Capuccino", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Macchiato", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Latte", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Mocha", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Lungo", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Café", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"}
+    {
+      "name": "Café Preto",
+      "description": "O clássico, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"
+    },
+    {
+      "name": "Café Expresso",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Capuccino",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Macchiato",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Latte",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Mocha",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Lungo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Café",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    }
   ],
   [
-    {"name": "Pão Frânces", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Pão Fatiado", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Pão Baguete", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Pão de Queijo", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Pão Recheado", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Pão de Leite", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Pão Torrado", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"}
+    {
+      "name": "Pão Frânces",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Pão Fatiado",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Pão Baguete",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Pão de Queijo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Pão Recheado",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Pão de Leite",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Pão Torrado",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    }
   ],
   [
-    {"name": "Pastel Frito", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Pastel Assado", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Pastel Folhado", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Risoles", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Croquete", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Enrroladinho", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Torrada", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"}
+    {
+      "name": "Pastel Frito",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Pastel Assado",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Pastel Folhado",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Risoles",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Croquete",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Enrroladinho",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Torrada",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    }
   ],
   [
-    {"name": "Bolo de Cenoura", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Bolo Formigueiro", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Nega Maluca", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Bolo Prestigio", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Bolo Salgado", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Bolo de Paçoca", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
-    {"name": "Cupcake", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"}
+    {
+      "name": "Bolo de Cenoura",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Bolo Formigueiro",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Nega Maluca",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Bolo Prestigio",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Bolo Salgado",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Bolo de Paçoca",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    },
+    {
+      "name": "Cupcake",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+    }
   ]
 ]
