@@ -1,0 +1,39 @@
+[
+  [
+    {"name": "Café Preto", "description": "O clássico, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Café Expresso", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Capuccino", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Macchiato", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Latte", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Mocha", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Lungo", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Café", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"}
+  ],
+  [
+    {"name": "Pão Frânces", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Pão Fatiado", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Pão Baguete", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Pão de Queijo", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Pão Recheado", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Pão de Leite", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Pão Torrado", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"}
+  ],
+  [
+    {"name": "Pastel Frito", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Pastel Assado", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Pastel Folhado", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Risoles", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Croquete", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Enrroladinho", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Torrada", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"}
+  ],
+  [
+    {"name": "Bolo de Cenoura", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Bolo Formigueiro", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Nega Maluca", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Bolo Prestigio", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Bolo Salgado", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Bolo de Paçoca", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"},
+    {"name": "Cupcake", "description": "O clássico “café preto”, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"}
+  ]
+]
