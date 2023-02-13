@@ -41,6 +41,10 @@ const DOM = {
   setDescriptionEventListeners: function () {
     DOM.descButtons.forEach((button) => button.addEventListener("click", interactiveMenu.descriptionButtonHandler));
   },
+  toggleButtons: function(newIndex, currentIndex) {
+    this.sectionButtons[newIndex].classList.add('j-active');
+    this.sectionButtons[currentIndex].classList.remove('j-active');
+  },
   toggleParagraph: function (index) {
     this.descButtons[index].classList.toggle("j-active");
   }
@@ -48,10 +52,14 @@ const DOM = {
 
 const interactiveMenu = {
   items: [],
+  selected: 0,
   requested: false,
   sectionButtonHandler: function (event) {
     if (interactiveMenu.requested) {
-      DOM.fillList(interactiveMenu.items[event.target.getAttribute("j-index")]);
+      let index = event.target.getAttribute("j-index");
+      DOM.toggleButtons(index, interactiveMenu.selected);
+      interactiveMenu.selected = index;
+      DOM.fillList(interactiveMenu.items[index]);
     }
   },
   descriptionButtonHandler: function (event) {
