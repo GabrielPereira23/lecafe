@@ -48,6 +48,7 @@ const DomElementBuilder = {
 
 const interactiveMenu = {
   items: [],
+  selected: 0,
   requested: false,
   sectionButtonHandler: function (event) {
     if (interactiveMenu.requested) {

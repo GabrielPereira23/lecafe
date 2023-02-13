@@ -21,7 +21,7 @@
 .title {
   padding-top: 20px;
   padding-bottom: 20px;
-  animation: fadein 0.5s;
+  animation: fadeIn 0.5s;
 }
 
 .title h1 {
