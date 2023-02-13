@@ -2,125 +2,117 @@
   [
     {
       "name": "Café Preto",
-      "description": "O clássico, perfeito para começar o dia de forma produtiva sem sair muito do padrão!"
+      "description": "Um café forte e intenso, feito com grãos torrados e moídos, geralmente servido sem adições ou açúcar."
     },
     {
       "name": "Café Expresso",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "description": "Café expresso é uma bebida concentrada e forte, feita com água quente pressionada em grãos torrados. É conhecido por seu sabor intenso, crema escura e espuma de alta qualidade. Popular para quem procura um café rápido e enérgico."
     },
     {
       "name": "Capuccino",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "description": "Capuccino é uma bebida de café composta de expresso, leite vaporizado e espuma de leite. O resultado é uma bebida cremosa e equilibrada, com uma mistura de sabor de café e leite."
     },
     {
       "name": "Macchiato",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "description": "Macchiato é uma bebida de café composta de expresso e uma pequena quantidade de leite vaporizado. A palavra \"macchiato\" significa \"manchado\" em italiano, fazendo referência ao leite adicionado, que \"mancha\" o café escuro. O resultado é uma bebida de café forte e concentrada com uma suave adição de sabor de leite."
     },
     {
       "name": "Latte",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "description": "Latte é uma bebida de café composta de expresso e leite vaporizado, com uma pequena camada de espuma de leite por cima. É conhecido por sua cremosidade e sabor de leite suave, que equilibra o sabor forte do café, Lattes são frequentemente adicionados com syrup de baunilha, caramelo ou outros sabores para criar um sabor adicional."
     },
     {
       "name": "Mocha",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "description": "Mocha é uma bebida de café composta de expresso, leite vaporizado e chocolate. O chocolate é adicionado na forma de cacau em pó, syrup de chocolate ou pedaços de chocolate derretido e é misturado com o café e o leite para criar um sabor doce e cremoso. Mochas são frequentemente adicionados com chantilly ou outros toppings para criar uma bebida indulgente e satisfatória."
     },
     {
       "name": "Lungo",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
-    },
-    {
-      "name": "Café",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "description": "Lungo é uma bebida de café composta de expresso com uma quantidade maior de água do que o expresso convencional. O resultado é uma bebida menos concentrada e mais suave, com menos sabor amargo e menos crema."
     }
   ],
   [
     {
-      "name": "Pão Frânces",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "name": "Pão Francês",
+      "description": "Pão Francês é um pão branco e suave com uma crosta crocante. É feito com farinha branca, água, açúcar, sal e fermento. É um pão versátil que pode ser usado para uma ampla variedade de preparações, desde sanduíches a torradas. É geralmente vendido em formas longas e é conhecido por sua textura macia e sabor neutro."
     },
     {
-      "name": "Pão Fatiado",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "name": "Pão fatiado",
+      "description": "Pão fatiado é um pão branco ou multigrau que é cortado em fatias finas para fácil preparação de sanduíches. É feito com farinha, água, açúcar, sal e fermento e pode ser enriquecido com ingredientes adicionais, como nozes ou sementes. É uma opção versátil para o café da manhã, almoço ou jantar."
     },
     {
       "name": "Pão Baguete",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "description": "Pão Baguete é um pão longo e fino com uma crosta crocante e um miolo macio. É feito com farinha, água, açúcar, sal e fermento e é conhecido por sua forma distinta e crosta crocante. É geralmente vendido inteiro e pode ser fatiado e usado para uma ampla variedade de preparações, como sanduíches ou bruschette."
     },
     {
       "name": "Pão de Queijo",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "description": "Pão de Queijo é um pão assado feito com polvilho azedo, queijo ralado e ovos. É originário do Brasil e é conhecido por sua textura crocante por fora e macia por dentro, bem como por seu sabor de queijo. É geralmente consumido como um lanche ou aperitivo e é uma opção popular para aqueles que procuram uma alternativa não convencional ao pão comum."
     },
     {
       "name": "Pão Recheado",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "description": "Pão Recheado é um pão recheado com ingredientes adicionais, como presunto, queijo, salame ou outros recheios de sua preferência. É geralmente feito com pão de forma e é uma opção popular para lanches rápidos ou refeições leves. Pode ser servido quente ou frio e é uma escolha versátil para qualquer momento do dia."
     },
     {
       "name": "Pão de Leite",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "description": "Pão de Leite é um pão macio e suave feito com farinha, leite, açúcar, ovos e fermento. É conhecido por seu sabor adocicado e sua textura macia e fofa. É geralmente consumido como um pão para o café da manhã ou para o lanche, e pode ser recheado com manteiga, geleia ou outros ingredientes de sua preferência."
     },
     {
       "name": "Pão Torrado",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "description": "Pão Torrado é um pão que foi assado em altas temperaturas para produzir uma crosta crocante e um miolo macio. Pode ser feito com uma variedade de tipos de pão, incluindo pão branco, integral ou de centeio. É geralmente consumido com manteiga ou outros spreads, ou pode ser usado como base para sanduíches ou saladas."
     }
   ],
   [
     {
       "name": "Pastel Frito",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "description": "Pastel Frito é um salgado frito que consiste em uma massa crocante recheada com uma variedade de ingredientes, como carne, frango, queijo, legumes ou outros recheios de sua preferência. É um alimento popular em todo o Brasil e é uma opção conveniente e saborosa para lanches rápidos ou refeições leves."
     },
     {
       "name": "Pastel Assado",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "description": "Pastel Assado é uma versão mais saudável do pastel frito, feita com massa de pastel assada em vez de frita. É recheado com uma variedade de ingredientes, como carne, frango, queijo, legumes ou outros recheios de sua preferência. É uma opção popular para lanches rápidos ou refeições leves e é uma escolha saudável e deliciosa."
     },
     {
       "name": "Pastel Folhado",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "description": "Pastel Folhado é um salgado feito com massa folhada crocante que é recheada com uma variedade de ingredientes, como carne, frango, queijo, legumes ou outros recheios de sua preferência. É geralmente servido quente e é uma opção popular para lanches rápidos ou refeições leves."
     },
     {
       "name": "Risoles",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "description": "Risoles são salgadinhos fritos ou assados com massa crocante recheada com uma variedade de ingredientes, como carne, frango, queijo, legumes ou outros recheios de sua preferência. Eles são comumente servidos como aperitivo ou como uma refeição ligeira."
     },
     {
       "name": "Croquete",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "description": "Croquetes são salgadinhos fritos ou assados feitos com massa macia recheada com uma variedade de ingredientes, como carne, frango, queijo, legumes ou outros recheios de sua preferência. Eles são geralmente servidos como aperitivo ou como uma refeição ligeira."
     },
     {
-      "name": "Enrroladinho",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
-    },
-    {
-      "name": "Torrada",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "name": "Enroladinho",
+      "description": "Enroladinhos são salgadinhos enrolados em forma de cilindro com uma variedade de recheios, como carne, frango, queijo, presunto ou outros ingredientes de sua preferência."
     }
   ],
   [
     {
-      "name": "Bolo de Cenoura",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "name": "Bolo de cenoura",
+      "description": "Um bolo úmido e saboroso feito com cenoura ralada e especiarias."
     },
     {
-      "name": "Bolo Formigueiro",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "name": "Bolo formigueiro",
+      "description": "Um bolo fofo e saboroso com cobertura de caramelo e gotas de chocolate."
     },
     {
-      "name": "Nega Maluca",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "name": "Nega maluca",
+      "description": "Um bolo de chocolate quente e fudgy com cobertura de glacê de chocolate e nozes picadas."
     },
     {
       "name": "Bolo Prestigio",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
     },
     {
-      "name": "Bolo Salgado",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "name": "Bolo Prestígio",
+      "description": "Um bolo de chocolate com camadas de ganache de chocolate branco e cobertura de glacê de chocolate."
     },
     {
-      "name": "Bolo de Paçoca",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "name": "Bolo de paçoca",
+      "description": "Um bolo saboroso feito com paçoca e cobertura de glacê de amendoim."
     },
     {
       "name": "Cupcake",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio augue, cursus ut elementum et."
+      "description": "Um mini bolo de vários sabores e coberturas, normalmente coberto com glacê e decorado com confeitos."
     }
   ]
 ]
