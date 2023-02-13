@@ -1,12 +1,15 @@
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateX(-20px);
+    transform: translateX(20px);
   }
   to {
     opacity: 100%;
     transform: translateX(0px);
   }
+}
+.a-fadeIn {
+  animation: fadeIn 0.3s ease-in-out; 
 }
 
 @keyframes fromUp {
@@ -14,6 +17,12 @@
     max-height: 0px;
   }
   to {
-    max-height: 100px;
+    max-height: 150px;
   }
+}
+.a-fromUp {
+  animation: fromUp 0.5s ease-in-out;
+}
+.a-fromUpRev {
+  animation: fromUp 0.5s reverse ease-in-out;
 }

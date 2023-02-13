@@ -45,8 +45,8 @@
   top: 50%;
   right: -11px;
   transform: translateY(-50%);
+  z-index: 1;
 }
-
 
 .interactive-selector button > * {
   pointer-events: none;
@@ -58,6 +58,7 @@
   background-color: var(--b13);
   overflow-y: auto;
   scrollbar-gutter: stable;
+  z-index: 0;
 }
 .interactive-content::-webkit-scrollbar {
   width: 8px;
@@ -92,7 +93,7 @@
 }
 
 .interactive-arrow {
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 .interactive-content button.j-enable .interactive-arrow {
   transform: rotate(180deg);
@@ -105,7 +106,6 @@
 }
 .interactive-content button.j-enable p {
   display: initial;
-  animation: fromUp 0.3s ease-in-out 0s;
 }
 
 @media (min-width: 3000px) {
@@ -121,6 +121,10 @@
 }
 
 @media (max-width: 800px) {
+  .interactive-bg {
+    background: var(--b13);
+  }
+
   .interactive {
     height: auto;
     grid-template-columns: 1fr;
@@ -132,6 +136,11 @@
 
   .interactive-selector button.j-enable::after {
     display: none;
+  }
+
+  .interactive-arrow {
+    width: 15px;
+    height: 11px;
   }
 }
 

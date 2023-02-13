@@ -8,6 +8,7 @@ const DOM = {
         DomElementBuilder.item(item.name, item.description)
       );
     });
+    animation(this.list, 'fadeIn', 300);
   },
   toggleSection: function (index) {
     this.sectionButtons.forEach((button) => {
@@ -16,7 +17,14 @@ const DOM = {
     this.sectionButtons[index].classList.add("j-enable");
   },
   toggleParagraph: function (element) {
-    element.classList.toggle("j-enable");
+    if (element.classList.contains("j-enable")) {
+      animation(element.lastChild, "fromUpRev", 500, () => {
+        element.classList.remove("j-enable");
+      });
+    } else {
+      element.classList.add("j-enable");
+      animation(element.lastChild, "fromUp", 500);
+    }
   },
 };
 
