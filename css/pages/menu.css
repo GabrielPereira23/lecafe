@@ -84,13 +84,15 @@
   text-align: left;
   transition: color 0.3s;
 }
-
 .interactive-content button > * {
   pointer-events: none;
 }
-.interactive-content button:hover h2 {
+.interactive-content button:hover h2, 
+.interactive-content button:focus h2 {
   color: var(--b7);
 }
+
+
 
 .interactive-arrow {
   transition: transform 0.5s;

@@ -1,0 +1,101 @@
+/* ------------ CONTACTS ------------ */
+.contacts-bg {
+  background: linear-gradient(90deg, var(--b12) 50%, var(--b3) 50.01%);
+}
+
+.contacts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 64px;
+  padding-bottom: 120px;
+}
+
+.contacts-meansTitle {
+  margin-bottom: 32px;
+}
+
+.contacts-means li {
+  width: max-content;
+}
+.contacts-means li:last-child {
+  margin-bottom: 64px;
+}
+
+.contacts-means li + li {
+  margin-top: 8px;
+}
+
+.contacts-means li a {
+  position: relative;
+}
+.contacts-means li a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--b7);
+  position: absolute;
+  bottom: 4px;
+}
+
+.contacts-socialTitle {
+  margin-bottom: 32px;
+}
+
+.contacts-social {
+  display: flex;
+  gap: 24px;
+}
+
+.contacts-form {
+  padding-left: 64px;
+}
+
+.contacts-form h2 {
+  margin-bottom: 32px;
+}
+
+.contacts-formField {
+  display: flex;
+  flex-direction: column;
+}
+.contacts-formField + .contacts-formField {
+  margin-top: 24px;
+}
+
+.contacts-formField label {
+  margin-bottom: 4px;
+}
+
+.contacts-formField input,
+.contacts-formField textarea {
+  background-color: var(--b5);
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+.contacts-formField input::placeholder,
+textarea::placeholder {
+  color: var(--b7);
+}
+.contacts-formField textarea::-webkit-scrollbar {
+  width: 8px;
+}
+.contacts-formField textarea::-webkit-scrollbar-track {
+  background: transparent;
+}
+.contacts-formField textarea::-webkit-scrollbar-thumb {
+  background-color: var(--b8);
+  border-radius: 8px;
+}
+
+.contacts-form button {
+  margin-top: 64px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background: var(--e6);
+  transition: transform 0.3s, background 0.3s;
+}
+.contacts-form button:hover {
+  background: var(--e9);
+  transform: scale(1.01);
+}

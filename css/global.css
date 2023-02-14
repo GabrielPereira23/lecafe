@@ -42,7 +42,8 @@ ul {
 h1,
 h2,
 h3,
-p {
+p,
+input {
   margin: 0px;
   padding: 0px;
 }
@@ -56,4 +57,12 @@ button {
   outline: none;
   background: none;
   cursor: pointer;
+}
+
+input,
+textarea {
+  background: none;
+  resize: none;
+  border: none;
+  outline: none;
 }
