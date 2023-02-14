@@ -87,12 +87,10 @@
 .interactive-content button > * {
   pointer-events: none;
 }
-.interactive-content button:hover h2, 
+.interactive-content button:hover h2,
 .interactive-content button:focus h2 {
   color: var(--b7);
 }
-
-
 
 .interactive-arrow {
   transition: transform 0.5s;
@@ -173,7 +171,8 @@
   background: var(--e6);
   transition: transform 0.3s, background 0.3s;
 }
-.download a:hover {
+.download a:hover,
+.download a:focus {
   background: var(--e7);
   transform: scale(1.01);
 }

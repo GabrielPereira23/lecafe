@@ -130,6 +130,7 @@
   background: var(--e6);
   transition: transform 0.3s, background 0.3s;
 }
+.menu a:focus,
 .menu a:hover {
   background: var(--e9);
   transform: scale(1.01);
@@ -202,7 +203,8 @@
   text-decoration: underline;
   transition: color 0.3s;
 }
-.location a:hover {
+.location a:hover,
+.location a:focus {
   color: var(--e2);
 }
 

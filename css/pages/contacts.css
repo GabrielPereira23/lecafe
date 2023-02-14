@@ -27,6 +27,11 @@
 
 .contacts-means li a {
   position: relative;
+  transition: color 0.3s;
+}
+.contacts-means li a:hover,
+.contacts-means li a:focus {
+  color: var(--b5);
 }
 .contacts-means li a::after {
   content: "";
@@ -36,6 +41,11 @@
   background-color: var(--b7);
   position: absolute;
   bottom: 4px;
+  transition: background 0.3s;
+}
+.contacts-means li a:hover::after,
+.contacts-means li a:focus::after {
+  background-color: var(--b5);
 }
 
 .contacts-socialTitle {
@@ -45,6 +55,14 @@
 .contacts-social {
   display: flex;
   gap: 24px;
+}
+
+.contacts-social a img {
+  transition: transform 0.3s;
+}
+.contacts-social a:hover img,
+.contacts-social a:focus img {
+  transform: scale(1.05);
 }
 
 .contacts-form {
@@ -72,11 +90,20 @@
   background-color: var(--b5);
   border-radius: 4px;
   padding: 8px 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s;
+}
+.contacts-formField input:hover,
+.contacts-formField input:focus,
+.contacts-formField textarea:hover,
+.contacts-formField textarea:focus {
+  background-color: var(--b6);
 }
 .contacts-formField input::placeholder,
 textarea::placeholder {
   color: var(--b7);
 }
+
 .contacts-formField textarea::-webkit-scrollbar {
   width: 8px;
 }
@@ -95,7 +122,8 @@ textarea::placeholder {
   background: var(--e6);
   transition: transform 0.3s, background 0.3s;
 }
-.contacts-form button:hover {
+.contacts-form button:hover,
+.contacts-form button:focus {
   background: var(--e9);
   transform: scale(1.01);
 }
