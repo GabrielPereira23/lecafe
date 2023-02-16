@@ -6,8 +6,12 @@
 .contacts {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.contacts-means {
   padding-top: 64px;
-  padding-bottom: 120px;
+  padding-bottom: 128px;
+  background-color: var(--b12);
 }
 
 .contacts-meansTitle {
@@ -67,6 +71,9 @@
 
 .contacts-form {
   padding-left: 64px;
+  padding-top: 64px;
+  padding-bottom: 128px;
+  background-color: var(--b3);
 }
 
 .contacts-form h2 {
@@ -126,4 +133,39 @@ textarea::placeholder {
 .contacts-form button:focus {
   background: var(--e9);
   transform: scale(1.01);
+}
+
+@media (max-width: 800px) {
+  .contacts-bg {
+    background: none;
+  }
+
+  .contacts {
+    grid-template-columns: 1fr;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .contacts-means {
+    padding: 32px;
+  }
+
+  .contacts-means li:last-child {
+    margin-bottom: 32px;
+  }
+
+  .contacts-form {
+    padding: 32px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contacts-social {
+    gap: 16px;
+  }
+
+  .contacts-social img {
+    width: 48px;
+    height: 48px;
+  }
 }
