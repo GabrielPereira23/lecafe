@@ -98,6 +98,10 @@
   }
 }
 
+#galery .cpn_title {
+  padding-bottom: 8px;
+}
+
 /* CPN ---------- FOOTER ------------ */
 .cpn_footer-bg {
   background-color: var(--b1);
