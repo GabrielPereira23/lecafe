@@ -20,6 +20,7 @@ const imagePopup = {
   },
   closeImage: function () {
     DOM.toggleImagePopup();
+    DOM.setImageSrc("");
     this.open = false;
   },
   escHandler: function () {
